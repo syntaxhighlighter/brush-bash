@@ -2,8 +2,8 @@ var chai = require('chai');
 var expect = chai.expect;
 var parser = require('parser');
 var XRegExp = require('xregexp');
-var Brush = require('.');
-var sample = require('raw!./sample.txt');
+var Brush = require('./brush');
+var sample = require('fs').readFileSync('./sample.txt', 'utf8');
 
 describe('brush-bash', function() {
   var instance = null;
