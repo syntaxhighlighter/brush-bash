@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "brush-base": "syntaxhighlighter/brush-base",
-    "regex-lib": "syntaxhighlighter/regex-lib"
+    "regex-lib": "syntaxhighlighter/regex-lib",
+    "xregexp": "syntaxhighlighter/xregexp"
   },
   "devDependencies": {
     "parser": "syntaxhighlighter/parser",
