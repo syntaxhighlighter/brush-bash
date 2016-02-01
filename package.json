@@ -1,5 +1,5 @@
 {
-  "name": "brush-bash",
+  "name": "@alexgorbatchev/brush-bash",
   "version": "4.0.0",
   "description": "bash brush module for SyntaxHighlighter.",
   "keywords": [
