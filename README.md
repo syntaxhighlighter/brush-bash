@@ -2,11 +2,11 @@
 
 Bash brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
-[![Build Status](https://travis-ci.org/alexgorbatchev/brush-bash.svg)](https://travis-ci.org/alexgorbatchev/brush-bash)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/brush-bash.svg)](https://travis-ci.org/syntaxhighlighter/brush-bash)
 
 ## Installation
 
-    npm install syntaxhighlighter/brush-bash
+    npm install @alexgorbatchev/brush-bash
 
 ## Testing
 
