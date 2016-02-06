@@ -1,6 +1,6 @@
 var chai = require('chai');
 var expect = chai.expect;
-var parser = require('parser');
+var match = require('syntaxhighlighter-match');
 var XRegExp = require('xregexp');
 var Brush = require('./brush');
 var sample = require('fs').readFileSync('./sample.txt', 'utf8');
@@ -26,7 +26,7 @@ describe('brush-bash', function() {
     var matches = null;
 
     before(function() {
-      matches = parser.parse(sample, instance.regexList);
+      matches = match.applyRegexList(sample, instance.regexList);
     });
 
     it('can parse', function() {
