@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 var match = require('syntaxhighlighter-match');
-var XRegExp = require('xregexp');
+var XRegExp = require('syntaxhighlighter-regex').XRegExp;
 var Brush = require('./brush');
 var sample = require('fs').readFileSync('./sample.txt', 'utf8');
 
