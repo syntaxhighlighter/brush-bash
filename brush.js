@@ -25,7 +25,7 @@ function Brush() {
     'diff diff3 dig dir dircolors dirname dirs du echo egrep eject enable env ethtool eval ' +
     'exec exit expand export expr false fdformat fdisk fg fgrep file find fmt fold format ' +
     'free fsck ftp gawk gcc gdb getconf getopts grep groups gunzip gzcat gzip hash head history hostname id ifconfig ' +
-    'import install join kill less let ln local locate logname logout look lpc lpr lprint ' +
+    'import install join kill kubectl less let ln local locate logname logout look lpc lpr lprint ' +
     'lprintd lprintq lprm ls lsof make man mkdir mkfifo mkisofs mknod more mount mtools ' +
     'mv nasm nc ndisasm netstat nice nl nohup nslookup objdump od open op passwd paste pathchk ping popd pr printcap ' +
     'printenv printf ps pushd pwd quota quotacheck quotactl ram rcp read readonly renice ' +
